@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
+	import { web3 } from 'svelte-web3';
 </script>
 
 <Header />
@@ -36,7 +37,6 @@
 				</address>
 				<!-- /Contact Address -->
 			</div>
-
 		</div>
 	</div>
 

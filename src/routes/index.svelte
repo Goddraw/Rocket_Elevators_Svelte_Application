@@ -2,10 +2,6 @@
 	export const prerender = true;
 </script>
 
-<script>
-	import Counter from '$lib/Counter.svelte';
-</script>
-
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
@@ -27,8 +23,7 @@
 	</h2>
 
 	<button>
-		GET A FREE NFT
-		<!-- link to nft minting page -->
+		<a href="/about"> GET A FREE NFT </a>
 	</button>
 </section>
 

@@ -6,6 +6,9 @@ declare namespace App {
 	interface Locals {
 		userid: string;
 	}
+	interface Window {
+		ethereum: any;
+	}
 
 	// interface Platform {}
 
